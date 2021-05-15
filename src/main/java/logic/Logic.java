@@ -13,7 +13,7 @@ public class Logic {
         return a * b;
     }
 
-    public int divided(int a, int b) {
+    public double  divided(double  a, double b) {
         if (b != 0) {
             return a / b;
         } else {

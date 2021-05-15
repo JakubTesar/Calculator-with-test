@@ -20,6 +20,8 @@ public class Cli {
             System.out.println("Napiš 4 pro dělení");
             System.out.println("Napiš 5 pro mocnění");
             System.out.println("Napiš 6 pro faktoriál");
+            System.out.println("---------------------------------------------");
+            System.out.println("Napiš 9 pro Ukončení");
             choise = sc.nextInt();
             if (choise == 1) plus();
             if (choise == 2) minus();
@@ -27,6 +29,7 @@ public class Cli {
             if (choise == 4) divided();
             if (choise == 5) power();
             if (choise == 6) factorial();
+            if (choise == 9) System.exit(0);
         }
     }
 
@@ -63,10 +66,10 @@ public class Cli {
         int a = sc.nextInt();
         System.out.println("Napiš druhé číslo, kretým první číslo umocníš:");
         int b = sc.nextInt();
-        System.out.println("Umocnění tohoto čísla na "+ b + logic.power(a, b));
+        System.out.println("Umocnění tohoto čísla na "+ b + " je: "+logic.power(a, b));
     }
     public static void factorial() {
-        System.out.println("Napiš první číslo:");
+        System.out.println("Napiš číslo:");
         int a = sc.nextInt();
         System.out.println("Faktoriál tohoto čísla je " + logic.factorial(a));
     }

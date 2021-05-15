@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="logic.LogicTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-15T13:46:46" hostname="XEON-PC" time="0.005">
+  <properties/>
+  <testcase name="testMinus" classname="logic.LogicTest" time="0.001"/>
+  <testcase name="testPower" classname="logic.LogicTest" time="0.0"/>
+  <testcase name="testTimes" classname="logic.LogicTest" time="0.0"/>
+  <testcase name="testPlus" classname="logic.LogicTest" time="0.0"/>
+  <testcase name="testFactorial" classname="logic.LogicTest" time="0.001"/>
+  <testcase name="testDivided" classname="logic.LogicTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
